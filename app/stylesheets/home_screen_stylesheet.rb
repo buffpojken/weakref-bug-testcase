@@ -12,6 +12,7 @@ class HomeScreenStylesheet < ApplicationStylesheet
   def button(st)
     st.frame = {l: 10, t: 100, fr: 10, h: 20}
     st.background_color = color.red
+    st.text = "Tap me first!"
   end 
 
   def second_button(st)
